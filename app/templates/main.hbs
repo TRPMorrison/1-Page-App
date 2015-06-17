@@ -4,9 +4,7 @@
   <input type="text" placeholder="Picture URL" id="pictureURL">
   <input type="text" placeholder="Picture Title" id="pictureTitle">
   <input type="text" placeholder="Picture Description" id="pictureDesc">
-  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-    <i class="mdi-content-send right"></i>
-  </button>
+  <button> Submit </button>
 </form>
 
 <ul>
@@ -14,7 +12,7 @@
     <li data-id="{{_id}}">
       <figure>
         <a class="gallery" href="#picture/{{_id}}"><img src="{{url}}" alt=""></a>
-        <figcaption>{{title}}: {{description}}</figcaption>
+        <figcaption> {{title}} : {{description}} </figcaption>
       </figure>
     </li>
   {{/each}}
